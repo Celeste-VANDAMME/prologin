@@ -137,7 +137,7 @@ def main() -> None:
     # -- 4. Output (displaying the result)
     displayResult( maxJump )
     
-    # -- X. Closing "main()"
+    # -- 5. Closing "main()"
     return None
 
 
