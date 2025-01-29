@@ -27,7 +27,9 @@ from typing import List
 
 # --- B. GLOBAL PARAMETERS
 
+# Available files: sample_1.txt, sample_2.txt, sample_3.txt
 INPUT_FILE_DIR  = str("2024/Qualification/01_Escalade-de-Yggdrasil/data/sample_2.txt")
+
 STARTING_HEIGHT = int(1)
 
 
@@ -104,11 +106,16 @@ def displayResult(maxJump: int) -> None:
     :param maxJump: The maximum jump that can be made.
     """
     
+    """
     print("")
     print(" --- RESULT --- ")
     print("The maximum height Höder will have to do is:")
     print(f"{maxJump} jumps high!")
     print("")
+    """
+    
+    # Simplified display:
+    print(maxJump)
     
     return None
 
